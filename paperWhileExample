@@ -1,0 +1,16 @@
+#!/bin/bash
+
+while true 
+do
+        echo -n "What's your name?"
+        read var1
+        echo "Hello $var1!"
+        echo -n "Do you want to ad another use (y/n)?"
+        read answer
+        if [[ "$answer" != "y" ]]
+        then
+                echo -n "Goodbye"
+                break
+        fi
+done
+
