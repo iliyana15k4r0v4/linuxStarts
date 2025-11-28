@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "set your counter"
+read counter
+while [[ $counter -ge 0]]
+do
+        echo $counter
+        ((counter--))
+
+done
+
+echo "BLASTOFF"
+
+~   
